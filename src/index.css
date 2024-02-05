@@ -1,0 +1,109 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap');
+
+
+*{
+  box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+}
+
+.app-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-img{
+ 
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.input-label{
+  display: block;
+  margin-bottom: 8px ;
+  color: #3498db;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+input[type = "text"]{
+  padding: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+}
+
+
+button{
+  padding: 15px 20px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.generate-btn{
+  background-color: #3498db;
+}
+
+.generate-btn:disabled{
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+
+.download-btn{
+  background-color: #219a60;
+  margin-left:10px;
+}
+.download-btn:hover{
+  background-color: #219a52;
+}
+
+.app-container h1{
+  font-weight: 600;
+  color: #3498db;
+  border-bottom: 1px solid #ccccccc8;
+  padding: 10px 0px;
+  font-size: 18px;
+}
+
+.footer{
+  margin-top: 30px;
+
+}
+
+.footer a{
+  text-decoration: none;
+  color: #3498db;
+  font-weight: 600;
+}
+
+
+
+
+
+
